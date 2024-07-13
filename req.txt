@@ -1,0 +1,11 @@
+pip install --upgrade pip
+pip install transformers
+pip install torch
+pip install datasets
+pip install pytessaract
+pip install pdf2image
+pip install re
+git clone https://github.com/myshell-ai/MeloTTS.git
+cd MeloTTS
+pip install -e .
+python -m unidic download
