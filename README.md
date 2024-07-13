@@ -35,8 +35,14 @@ PDFSummarizer is a Python-based tool designed to extract text from PDF files, su
     ```sh
     pip install -r requirements.txt
     ```
-
-3. Install Tesseract OCR:
+3. Install Melo-api:
+     ```sh
+     git clone https://github.com/myshell-ai/MeloTTS.git
+    cd MeloTTS
+    pip install -e .
+    python -m unidic download
+     ```
+4. Install Tesseract OCR:
 
     - **Windows**: Download and install from [Tesseract at UB Mannheim](https://github.com/UB-Mannheim/tesseract/wiki)
     - **macOS**: Install via Homebrew:
